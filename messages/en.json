@@ -1,7 +1,7 @@
 {
   "lang": "English",
   "on_boarding_title": "Manfaz \n Your comprehensive services platform",
-  "on_boarding_description": "Discover the best service providers in Saudi Arabia, and start realizing your ideas with ease and professionalism.",
+  "on_boarding_description": "Discover the best service providers in Egypt, and start realizing your ideas with ease and professionalism.",
   "start_now": "Start now",
   "select_language": "Select Language",
   "welcome": "Welcome Back to Manfaz",
@@ -36,116 +36,6 @@
   "user": "User",
   "worker": "Worker",
   "manfaz": "Al MANAFETH",
-  "home": {
-    "good_morning": "Good Morning",
-    "no_services_found": "No services found",
-    "search_placeholder": "What are you looking for?",
-    "popular_services": "Popular Services",
-    "quick_actions": "Quick Actions",
-    "not_available_service": "Not Available Service",
-    "food_and_drinks": "Food & Drinks",
-    "restaurant_coffee_drinks": "Restaurant - Coffee - Drinks",
-    "price_range": "$ 20.00 - $ 50.00",
-    "categories": "Category",
-    "beauty_health": "Beauty & Health",
-    "best_seller": "Best Seller",
-    "location": "Location",
-    "city_country": "El Najah, Saudi Arabia",
-    "greeting": "Good Morning Ahmed",
-    "search_hint": "What are you looking for?",
-    "choose_service": "Choose a service",
-    "see_all": "See All",
-    "daily_solutions": "Daily Solutions",
-    "no_suggestions_found": "No suggestions found",
-    "get_user_location_view": {
-      "confirm_location": "Confirm Location",
-      "choose": "Choose"
-    },
-    "category_types": {
-      "service": "Service",
-      "delivery": "Delivery",
-      "delivery_service": "Delivery Service",
-      "delivery_product": "Delivery Product"
-    },
-    "services": "Services",
-    "delivery": "Delivery",
-    "products": "Products",
-    "services_description": "Find professional services for your needs",
-    "delivery_description": "Fast and reliable delivery services",
-    "products_description": "Shop from our partner stores",
-    "loading": "Loading...",
-    "request_service": "Request Service",
-    "help": "Help",
-    "map": {
-      "select_start": "Select start location",
-      "select_end": "Select destination",
-      "confirm_locations": "Confirm Locations"
-    }
-  },
-  "bottom_nav": {
-    "wallet": "Wallet",
-    "home": "Home",
-    "orders": "Orders",
-    "notification": "Notifications",
-    "profile": "Profile",
-    "cart": "Cart",
-    "settings": "Settings",
-    "earnings": "Earnings",
-    "reviews": "Reviews",
-    "schedule": "Schedule"
-  },
-  "orders_tab": {
-    "requests": "Requests",
-    "all": "  All  ",
-    "previous": "Previous",
-    "completed": "Completed",
-    "canceled": "Canceled",
-    "orderID": "Order ID",
-    "seller": "Seller",
-    "title": "Title",
-    "duration": "Duration",
-    "amount": "Amount",
-    "status": "Status",
-    "active": "Active"
-  },
-  "get_user_location_view": {
-    "confirm_location": "Confirm Location",
-    "choose": "Choose"
-  },
-  "profile_tab": {
-    "name": "Youssef",
-    "not_verified": "Not Verified",
-    "wallet": "Wallet",
-    "balance": "0.0 EGP",
-    "add": "Add",
-    "delivery_balance": "Delivery Balance",
-    "new": "New",
-    "orders": "Orders",
-    "saved_addresses": "Saved Addresses",
-    "ratings": "Service Ratings",
-    "user_notes": "User Notes",
-    "add_coupon": "Add Coupon",
-    "customer_support": "Customer Support",
-    "corporate_offers": "Corporate Offers",
-    "settings": "Settings",
-    "orders_count": "0 Orders",
-    "less_than": "< 0"
-  },
-  "home_service_details_view": {
-    "title": "Title",
-    "paints": "Paints",
-    "choose_your_service": "Choose Your Service",
-    "external_painting": "External Painting",
-    "rating": "(29) 4",
-    "gold_warranty": "Golden Warranty for 90 days",
-    "paint_wall": "External wall painting without profile",
-    "paint_service_description": "🏡✨ Give your external walls a new and vibrant look with a professional painting service without a profile.",
-    "price_includes_tax": "Price includes VAT",
-    "price": "SAR",
-    "installments": "Installments: 3 payments of 5.67 SAR/month",
-    "order_now": "Order Now",
-    "view_details": "View Details"
-  },
   "services": {
     "warranty_days": "{days} Days Warranty",
     "monthly_installment": "Installment {amount} SAR / Month",
@@ -159,45 +49,6 @@
     "back": "Go Back",
     "service_not_found": "Service Not Found",
     "loading": "Loading..."
-  },
-  "cart": {
-    "title": "Cart",
-    "services_count": "{count} Services",
-    "empty_cart": "Cart is Empty",
-    "no_services": "You haven't added any services to your cart yet",
-    "browse_services": "Browse Services",
-    "complete_order": "Complete Order",
-    "checkout": "Checkout",
-    "order_summary": "Order Summary",
-    "services_count_label": "Number of Services",
-    "total": "Total",
-    "remove_from_cart": "Remove from Cart"
-  },
-  "checkout": {
-    "add_new_address": "Add New Address",
-    "title": "Checkout",
-    "order_summary": "Order Summary",
-    "services_count": "{count} Services",
-    "total_amount": "Total Amount",
-    "payment_method": "Payment Method",
-    "cash": "Cash Payment",
-    "card": "Credit Card",
-    "tabby": "Installments via Tabby",
-    "tamara": "Installments via Tamara",
-    "contact_info": "Contact Information",
-    "name": "Name",
-    "phone": "Mobile Number",
-    "email": "Email",
-    "address": "Address",
-    "city": "City",
-    "notes": "Additional Notes",
-    "confirm_order": "Confirm Order",
-    "empty_cart": "Cart is Empty",
-    "empty_cart_message": "You haven't added any services to your cart yet",
-    "browse_services": "Browse Services",
-    "required_field": "This field is required",
-    "invalid_email": "Invalid email address",
-    "invalid_phone": "Invalid phone number"
   },
   "stores": {
     "no_stores_found": "No stores found",
@@ -307,28 +158,6 @@
       "expires": "Expires"
     }
   },
-  "location": {
-    "add_location": "Add Location",
-    "edit_location": "Edit Location",
-    "name": "Name",
-    "type": "Type",
-    "type_home": "Home",
-    "type_work": "Work",
-    "type_club": "Club",
-    "type_hotel": "Hotel",
-    "type_school": "School",
-    "type_party": "Party",
-    "address": "Address",
-    "building": "Building",
-    "apartment": "Apartment",
-    "floor": "Floor",
-    "street": "Street",
-    "area": "Area",
-    "city": "City",
-    "notes": "Notes",
-    "click_to_select": "Click to Select Location",
-    "save_error": "Error saving location"
-  },
   "common": {
     "save": "Save",
     "cancel": "Cancel"
@@ -339,191 +168,8 @@
   },
   "all": "All",
   "all_stores_categories": "All Categories",
-  "orders": {
-    "per_page": "Per Page",
-    "title": "Orders",
-    "all": "All",
-    "pending": "Pending",
-    "in_progress": "In Progress",
-    "completed": "Completed",
-    "canceled": "Canceled",
-    "error": "Error loading orders",
-    "no_orders": "No orders found",
-    "order_details": {
-      "service_provider": "Service Provider",
-      "store_details": "Store Details",
-      "order_number": "Order Number",
-      "order_date": "Order Date",
-      "order_status": "Order Status",
-      "payment_status": "Payment Status",
-      "delivery_address": "Delivery Address",
-      "total_amount": "Total Amount",
-      "items": "Items",
-      "quantity": "Quantity",
-      "price": "SAR",
-      "subtotal": "Subtotal",
-      "delivery_fee": "Delivery Fee",
-      "tax": "Tax",
-      "total": "Total",
-      "payment_method": "Payment Method",
-      "notes": "Notes",
-      "track_order": "Track Order",
-      "cancel_order": "Cancel Order",
-      "reorder": "Reorder",
-      "no_description": "No description available",
-      "confirm_cancel": "Confirm Order Cancellation",
-      "cancel_confirmation_message": "Are you sure you want to cancel this order?",
-      "order_placed": "Order Placed",
-      "order_confirmed": "Order Confirmed",
-      "order_processing": "Order Processing",
-      "order_on_way": "Order on the Way",
-      "order_delivered": "Order Delivered",
-      "order_cancelled": "Order Cancelled"
-    },
-    "status": {
-      "pending": "Pending",
-      "in_progress": "In Progress",
-      "completed": "Completed",
-      "canceled": "Canceled"
-    }
-  },
-  "workers": {
-    "no_workers_available": "No workers available",
-    "available_workers": "Available Workers",
-    "success_rate": "Success Rate",
-    "earned": "Earned",
-    "show_profile": "Show Profile",
-    "order_now": "Order Now",
-    "not_available": "Not Available",
-    "loading": "Loading..."
-  },
-  "worker_profile": {
-    "location": "Saudi Arabia",
-    "not_available": "Not Available",
-    "job_success": "Job Success",
-    "earned": "Earned",
-    "jobs_done": "Jobs Done",
-    "about": "About",
-    "skills": "Skills",
-    "experience": "Experience",
-    "reviews": "Reviews",
-    "view_all": "View All"
-  },
-  "worker_dashboard": {
-    "welcome": "Welcome {name}",
-    "status_available": "Available",
-    "status_unavailable": "Unavailable",
-    "status_available_success": "Your status has been updated to available",
-    "status_unavailable_success": "Your status has been updated to unavailable",
-    "status_update_error": "Error updating status",
-    "total_orders": "Total Orders",
-    "success_rate": "Success Rate",
-    "total_earnings": "Total Earnings",
-    "rating": "Rating",
-    "earnings_overview": "Earnings Overview",
-    "earnings": "Earnings",
-    "recent_orders": "Recent Orders",
-    "recent_reviews": "Recent Reviews",
-    "no_orders": "No orders found",
-    "no_reviews": "No reviews found",
-    "view_all": "View All",
-    "view": "View",
-    "new_order_notification": "You have a new order",
-    "new_review_notification": "You have a new review",
-    "earnings_updated_notification": "Your earnings have been updated",
-    "status": {
-      "pending": "Pending",
-      "in_progress": "In Progress",
-      "completed": "Completed",
-      "canceled": "Canceled"
-    }
-  },
-  "worker_settings": {
-    "title2": "Settings",
-    "profile_image": "Profile Image",
-    "change_image": "Change Image",
-    "personal_info": "Personal Information",
-    "name": "Name",
-    "title": "Title",
-    "email": "Email",
-    "phone": "Phone",
-    "skills": "Skills",
-    "add_skill": "Add Skill",
-    "language": "Language",
-    "save_changes": "Save Changes",
-    "saving": "Saving...",
-    "settings_updated": "Settings updated successfully",
-    "settings_update_error": "Error updating settings"
-  },
-  "worker_schedule": {
-    "schedule_deleted": "Schedule Deleted",
-    "status_update_error": "Error updating status",
-    "orders_for_date": "Orders for the day",
-    "accept": "Accept",
-    "reject": "Reject",
-    "total_orders": "Total Orders",
-    "completed_orders": "Completed Orders",
-    "in_progress_orders": "In Progress Orders",
-    "pending_orders": "Pending Orders",
-    "no_orders": "No orders found",
-    "status": {
-      "pending": "Pending",
-      "in_progress": "In Progress",
-      "completed": "Completed",
-      "canceled": "Canceled"
-    },
-    "title": "Schedule",
-    "schedule_for": "Schedule for",
-    "schedule_updated": "Schedule updated successfully",
-    "schedule_update_error": "Error updating schedule",
-    "schedule_changed": "Schedule has been changed",
-    "no_appointments": "No appointments for this day",
-    "drag_to_reschedule": "Drag to reschedule appointment"
-  },
-  "worker_orders": {
-    "order_details": "Order Details",
-    "basic_info": "Basic Information",
-    "service_id": "Service ID",
-    "order_date": "Order Date",
-    "scheduled_time": "Scheduled Time",
-    "price": "Price",
-    "duration": "Duration",
-    "minutes": "minutes",
-    "customer_info": "Customer Information",
-    "phone": "Phone",
-    "location": "Location",
-    "additional_details": "Additional Details",
-    "description": "Description",
-    "notes": "Notes",
-    "no_description": "No description available",
-    "no_notes": "No notes available",
-    "attached_image": "Attached Image",
-    "order_image": "Order Image",
-    "status_and_actions": "Status & Actions",
-    "order_status": "Order Status",
-    "payment_status2": "Payment Status",
-    "accept": "Accept",
-    "reject": "Reject",
-    "mark_as_completed": "Mark as Completed",
-    "status_updated": "Order status updated successfully",
-    "status_update_error": "Error updating order status",
-    "order_not_found": "Order Not Found",
-    "order_not_found_description": "Sorry, we couldn't find the requested order",
-    "go_back": "Go Back",
-    "status": {
-      "pending": "Pending",
-      "in_progress": "In Progress",
-      "completed": "Completed",
-      "canceled": "Canceled"
-    },
-    "payment_status": {
-      "pending": "Pending",
-      "paid": "Paid",
-      "failed": "Failed"
-    }
-  },
   "hero": {
-    "title": "The Integrated Services Platform in Saudi Arabia",
+    "title": "The Integrated Services Platform in Egypt",
     "description": "We provide you with the best services and stores in one place. Order your service now with ease and security."
   },
   "our_services": "Our Services",
@@ -537,7 +183,7 @@
     "description": "Download the Manfadh app and enjoy a smooth and secure shopping experience."
   },
   "footer": {
-    "description": "The Integrated Services Platform in Saudi Arabia",
+    "description": "The Integrated Services Platform in Egypt",
     "company": "Company",
     "services": "Services",
     "legal": "Legal",
@@ -570,12 +216,12 @@
     },
     "address": {
       "title": "Our Location",
-      "content": "Riyadh, Saudi Arabia",
+      "content": "Cairo, Egypt",
       "action": "Get Directions"
     },
     "hours": {
       "title": "Working Hours",
-      "content": "We operate 24/7 all week long.",
+      "content": "We operate 24/7 all week long in Egypt.",
       "action": "Learn More"
     },
     "topics": {
@@ -603,160 +249,9 @@
     "support": {
       "title": "Need Help?",
       "description": "Our customer service team is available to assist you 24/7.",
-      "phone": "+966500000000",
+      "phone": "+201000000000",
       "call": "Call Support",
       "chat": "Chat with Us"
-    }
-  },
-  "blog": {
-    "title": "Blog",
-    "description": "The latest news and articles about Manfadh and our services.",
-    "search_placeholder": "Search for an article...",
-    "minutes": "Minutes",
-    "no_results": {
-      "title": "No Results Found",
-      "description": "Try searching with different keywords or browse the sections below."
-    },
-    "categories": {
-      "title": "Categories",
-      "all": "All",
-      "news": "News",
-      "tips": "Tips",
-      "guides": "Guides",
-      "updates": "Updates"
-    },
-    "tags": {
-      "title": "Tags",
-      "delivery": "Delivery",
-      "restaurants": "Restaurants",
-      "offers": "Offers",
-      "app": "App",
-      "service": "Service",
-      "stores": "Stores",
-      "payment": "Payment",
-      "features": "Features"
-    },
-    "newsletter": {
-      "title": "Newsletter",
-      "description": "Subscribe to our newsletter to receive the latest news and updates.",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe Now"
-    },
-    "authors": {
-      "team": "Manfadh Team",
-      "support": "Support Team",
-      "marketing": "Marketing Team"
-    },
-    "posts": {
-      "latest_features": {
-        "title": "New Features in the Manfadh App",
-        "excerpt": "Discover the latest features we've added to enhance your experience with the Manfadh app."
-      },
-      "delivery_tips": {
-        "title": "Tips for the Best Delivery Experience",
-        "excerpt": "Here are some useful tips to ensure your order arrives quickly and easily."
-      },
-      "new_stores": {
-        "title": "New Stores Joined Manfadh",
-        "excerpt": "We welcome the latest stores that have joined our growing Manfadh network."
-      }
-    }
-  },
-  "faq": {
-    "title": "Frequently Asked Questions",
-    "description": "Answers to the most common questions",
-    "search_placeholder": "Search for a question...",
-    "no_results": {
-      "title": "No results found",
-      "description": "Try searching with different keywords or browse the sections below"
-    },
-    "need_help": {
-      "title": "Can't find what you're looking for?",
-      "description": "Our customer service team is ready to assist you"
-    },
-    "contact_us": "Contact Us",
-    "call_support": "Call Support",
-    "support_phone": "+966500000000",
-    "categories": {
-      "general": "General",
-      "orders": "Orders",
-      "delivery": "Delivery",
-      "payment": "Payment",
-      "account": "Account"
-    },
-    "general": {
-      "q1": "What is Manfaz?",
-      "a1": "Manfaz is a comprehensive delivery platform connecting stores with users, providing fast and reliable delivery services for all your needs.",
-      "q2": "How can I use Manfaz?",
-      "a2": "You can use Manfaz through our website or mobile app. Simply create an account, select a store, add products to your cart, and complete your order.",
-      "q3": "In which areas is Manfaz available?",
-      "a3": "We offer our services in several major cities in Saudi Arabia and are working on expanding to new areas.",
-      "q4": "What are Manfaz's operating hours?",
-      "a4": "We operate 24/7, but store hours may vary.",
-      "q5": "Can I track my order?",
-      "a5": "Yes, you can track your order in real-time through the app or website."
-    },
-    "orders": {
-      "q1": "How can I place an order?",
-      "a1": "Select the store you want to order from, add products to your cart, review your order, choose a payment method, and confirm your order.",
-      "q2": "Can I cancel my order?",
-      "a2": "You can cancel your order before the store starts preparing it. Once preparation begins, cancellation is not possible.",
-      "q3": "What if there is an issue with my order?",
-      "a3": "You can contact customer service directly through the app or website, and we will help resolve any issue.",
-      "q4": "Can I modify my order after confirmation?",
-      "a4": "Orders cannot be modified after confirmation. If you need to make changes, please cancel the order and place a new one.",
-      "q5": "How can I check my order status?",
-      "a5": "You can check your order status in the 'My Orders' section of the app or website."
-    },
-    "delivery": {
-      "title": "Delivery",
-      "content": "We strive to provide fast and reliable delivery services for all your requests.",
-      "process": {
-        "title": "Delivery Process",
-        "content": "Your request is tracked in real-time from the moment of confirmation until delivery."
-      },
-      "timing": {
-        "title": "Delivery Timing",
-        "content": "We strive to deliver your request on time, considering unforeseen circumstances."
-      },
-      "responsibility": {
-        "title": "Responsibility",
-        "content": "We are responsible for delivering your request in good condition and on time."
-      },
-      "q1": "How long does delivery take?",
-      "a1": "Delivery time depends on your location and the store. Typically, it takes between 30 to 45 minutes.",
-      "q2": "What are the delivery charges?",
-      "a2": "Delivery fees vary based on the distance between your location and the store. You can check the delivery fee before confirming your order.",
-      "q3": "Can I track the delivery agent?",
-      "a3": "Yes, once the agent accepts your order, you can track their location in real time on the map in the app.",
-      "q4": "What if the delivery agent can't find my address?",
-      "a4": "The agent will call you if they have trouble finding your location. Please ensure you provide accurate details and landmarks in your address.",
-      "q5": "Can I schedule a delivery time?",
-      "a5": "Currently, we only offer instant delivery. We are working on adding a scheduled delivery feature in the future."
-    },
-    "payment": {
-      "q1": "What payment methods are available?",
-      "a1": "We accept credit cards, Mada, Apple Pay, and cash on delivery in some areas.",
-      "q2": "Is online payment secure?",
-      "a2": "Yes, we use the latest encryption technologies and secure payment systems to protect your financial information.",
-      "q3": "How can I get an invoice?",
-      "a3": "An invoice is automatically sent to your email after completing your order. You can also find all invoices in the 'My Orders' section.",
-      "q4": "What is the refund policy?",
-      "a4": "We offer a full refund if an order is canceled before preparation begins. In other cases, refunds are evaluated on a case-by-case basis.",
-      "q5": "Is there a minimum order amount?",
-      "a5": "The minimum order amount varies by store. You can check the minimum order before completing your purchase."
-    },
-    "account": {
-      "q1": "How can I create an account?",
-      "a1": "You can create an account easily by entering your phone number and verifying it, then completing your personal details.",
-      "q2": "How can I update my account information?",
-      "a2": "You can edit your account details by going to 'Settings' and then 'Edit Profile'.",
-      "q3": "What if I forget my password?",
-      "a3": "Click 'Forgot Password' on the login page, and we will send you a link to reset your password.",
-      "q4": "How can I add a new address?",
-      "a4": "Go to 'My Addresses' in the settings menu, then click 'Add New Address' and follow the steps.",
-      "q5": "Can I delete my account?",
-      "a5": "Yes, you can request account deletion by contacting customer service. All your data will be permanently deleted."
     }
   },
   "terms": {
@@ -766,7 +261,7 @@
     "questions": "Have any questions?",
     "contact_us": "Contact Us",
     "support": "Technical Support",
-    "support_phone": "+966500000000",
+    "support_phone": "+201000000000",
     "view_privacy": "Privacy Policy",
     "contact_support": "Contact Support",
     "agreement": {
@@ -1013,7 +508,7 @@
   },
   "about": {
     "title": "About Us",
-    "description": "We are committed to changing the concept of delivery in the Kingdom of Saudi Arabia",
+    "description": "We are committed to changing the concept of delivery in Egypt",
     "stats": {
       "stores": "Stores",
       "users": "Users",
@@ -1022,7 +517,7 @@
     },
     "vision": {
       "title": "Our Vision",
-      "content": "To be the first and best choice in the field of delivery services in the Kingdom of Saudi Arabia, through providing an exceptional experience that combines speed, quality, and reliability."
+      "content": "To be the first and best choice in the field of delivery services in Egypt, through providing an exceptional experience that combines speed, quality, and reliability."
     },
     "mission": {
       "title": "Our Mission",
@@ -1047,19 +542,19 @@
       "title": "Milestones",
       "launch": {
         "title": "Launch",
-        "description": "We started our journey in providing delivery services in the city of Riyadh"
+        "description": "We started our journey in providing delivery services in the city of Cairo"
       },
       "expansion": {
         "title": "Expansion",
-        "description": "We expanded to include the main cities in the Kingdom of Saudi Arabia"
+        "description": "We expanded to include the main governorates in Egypt"
       },
       "award": {
         "title": "Award",
-        "description": "We won the award for the best delivery app in the Kingdom"
+        "description": "We won the award for the best delivery app in Egypt"
       },
       "coverage": {
         "title": "Coverage",
-        "description": "We reached more than 20 cities in the Kingdom"
+        "description": "We reached more than 20 governorates in Egypt"
       }
     },
     "features": {
@@ -1082,13 +577,13 @@
       "description": "We are here to help you and answer all your questions",
       "email_us": "Contact Us",
       "call_us": "Call Us",
-      "phone": "+966500000000"
+      "phone": "+201000000000"
     }
   },
   "cities": {
     "title": "Cities",
-    "description": "Discover our services in the cities of the Kingdom of Saudi Arabia",
-    "search_placeholder": "Search for a city...",
+    "description": "Discover our services in the governorates of Egypt",
+    "search_placeholder": "Search for a governorate...",
     "stores": "Stores",
     "drivers": "Drivers",
     "users": "Users",
@@ -1100,30 +595,30 @@
       "title": "Expanding to reach you",
       "description": "We are expanding to new cities to provide our services to the largest number of users"
     },
-    "suggest_city": "Suggest a city",
+    "suggest_city": "Suggest a governorate",
     "learn_more": "Learn more",
     "riyadh": {
-      "name": "Riyadh",
+      "name": "Qalyoubia",
       "description": "The capital city, with a wide range of unique stores and restaurants"
     },
     "jeddah": {
-      "name": "Jeddah",
+      "name": "Alexandria",
       "description": "The pearl of the Red Sea, combining tradition and modernity in a unique shopping experience"
     },
     "dammam": {
-      "name": "Dammam",
+      "name": "Cairo",
       "description": "The gateway to the Arabian Gulf, with fast and reliable delivery services"
     },
     "makkah": {
-      "name": "Makkah",
+      "name": "Giza",
       "description": "The holy city, providing services to residents and visitors 24/7"
     },
     "madinah": {
-      "name": "Madinah",
+      "name": "Matrouh",
       "description": "The city of light, providing comprehensive services to residents and visitors"
     },
     "khobar": {
-      "name": "Khobar",
+      "name": "Ismailia",
       "description": "The city of progress and development, with a wide range of stores and restaurants"
     }
   },
@@ -1135,117 +630,5 @@
     "contact": "Contact",
     "services": "Services",
     "categories": "Categories"
-  },
-  "Notifications": {
-    "noNotifications": "No notifications yet",
-    "noNotificationsDescription": "Your notifications will appear here once you have any."
-  },
-  "wallet": {
-    "title": "Wallet",
-    "balance": "Current Balance",
-    "deposit": "Deposit",
-    "withdraw": "Withdraw",
-    "transactions": "Transaction History",
-    "amount": "Amount",
-    "email": "Email",
-    "confirm": "Confirm",
-    "cancel": "Cancel",
-    "status": {
-      "pending": "Processing",
-      "completed": "Completed",
-      "failed": "Failed"
-    },
-    "types": {
-      "deposit": "Deposit",
-      "withdraw": "Withdraw"
-    },
-    "validation": {
-      "amount_required": "Amount is required",
-      "amount_positive": "Amount must be greater than zero",
-      "amount_exceeded": "Amount exceeds available balance",
-      "email_required": "Email is required",
-      "email_invalid": "Invalid email address",
-      "user_required": "User is required",
-      "balance_positive": "Balance must be greater than zero"
-    },
-    "messages": {
-      "deposit_success": "Deposit successful",
-      "deposit_failed": "Deposit failed",
-      "withdraw_success": "Withdrawal successful",
-      "withdraw_failed": "Withdrawal failed",
-      "payout_success": "Payout request sent successfully",
-      "payout_failed": "Payout request failed"
-    },
-    "no_transactions": "No transactions found",
-    "loading": "Loading...",
-    "create_wallet": "Create Wallet",
-    "create_success": "Wallet created successfully",
-    "create_failed": "Wallet creation failed",
-    "no_wallet": "No Wallet",
-    "initial_balance": "Initial Balance"
-  },
-  "payment": {
-    "card_details": "Card Details",
-    "card_number": "Card Number",
-    "expiry_month": "Expiry Month",
-    "expiry_year": "Expiry Year",
-    "cvc": "CVC",
-    "name_on_card": "Name on Card",
-    "pay_now": "Pay Now",
-    "invalid_card_number": "Invalid card number.",
-    "invalid_expiry_date": "Invalid expiry date.",
-    "invalid_cvc": "Invalid CVC.",
-    "name_required": "Name on card is required.",
-    "invalid_amount": "Invalid amount."
-  },
-  "offers": {
-    "title": "Your Offers",
-    "description": "Discover the best offers available to us",
-    "view_all": "View All",
-    "no_offers": "No offers available",
-    "no_offers_description": "Your offers will appear here when you have any.",
-    "addToCart": "Add To Cart",
-    "included_products": "Included Products",
-    "original_price": "Original Price",
-    "discount": "Discount",
-    "final_price": "Final Price",
-    "valid_until": "Valid Until",
-    "off": "Off"
-  },
-  "welcome_user": {
-    "search_placeholder": "What are you looking for?",
-    "morning": "Good morning, {name}!",
-    "evening": "Good evening, {name}!"
-  },
-  "locations": {
-    "title": "Choose your location",
-    "no_locations": "No locations",
-    "new_address": "New Address"
-  },
-  "confirm_location": {
-    "confirmLocation": "Confirm Location",
-    "searchMap": "Search in the map",
-    "address": "Address",
-    "choose": "Choose",
-    "openLocationDialog": "Open Location Dialog",
-    "loading": "Loading...",
-    "locationSaved": "Location saved successfully",
-    "locationNotSaved": "Location not saved"
-  },
-  "save_location": {
-    "extra_details": "Additional details",
-    "extra_details_hint": "Building number, apartment number, landmark (near school)",
-    "extra_details_placeholder": "Enter extra details (optional)",
-    "add_photo": "Add a photo of the home or entrance",
-    "save_for_later": "Save this place for later use",
-    "home": "Home",
-    "work": "Work",
-    "hotel": "Hotel",
-    "party": "Party",
-    "school": "School",
-    "club": "Club",
-    "custom_name_placeholder": "Give this location a name (optional)",
-    "save_location": "Save Location",
-    "cancel": "Cancel"
   }
 }

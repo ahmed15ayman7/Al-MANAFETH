@@ -2,7 +2,7 @@
 
 import { createContext, useContext, ReactNode, useState } from "react";
 
-type Locale = "ar" | "en" | "ur";
+type Locale = "ar" | "en" ;
 
 interface LocaleContextType {
   locale: Locale;

@@ -12,7 +12,6 @@ const LanguageToggle: React.FC = () => {
   const languages = [
     { code: 'en', label: 'English', flag: '/imgs/en.svg' },
     { code: 'ar', label: 'العربية', flag: '/imgs/ar.png' },
-    { code: 'ur', label: 'اردو', flag: '/imgs/urdu.svg' },
   ];
 
   const toggleDropdown = () => {

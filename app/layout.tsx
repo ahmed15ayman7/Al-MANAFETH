@@ -107,7 +107,7 @@ export default function RootLayout({
 
         <title>{locale === 'en' ? "Al Manafth - Professional Home Services Platform" : locale === 'ur' ? "المنفذ - پلیٹ فارم برائے پیشہ ورانہ گھریلو خدمات" : "المنفذ - منصة خدمات المنازل الاحترافية"}</title>
         <meta name="description" content={locale === 'en' ? "Al Manafth is your trusted platform for professional home services. Connect with verified service providers for plumbing, electrical, cleaning, and more." : locale === 'ur' ? "المنفذ آپ کا معتبر پلیٹ فارم ہے جو پیشہ ورانہ گھریلو خدمات فراہم کرتا ہے. سباكة، برقی، صفائی اور مزید خدمات کے لیے تصدیق شدہ سروس فراہم کرنے والوں سے رابطہ کریں." : "المنفذ هي منصتك الموثوقة للخدمات المنزلية الاحترافية. تواصل مع مزودي الخدمات المعتمدين للسباكة والكهرباء والتنظيف والمزيد."} />
-        <meta name="keywords" content={locale === 'en' ? "home services, professional services, plumbing, electrical, cleaning, maintenance, Saudi Arabia" : locale === 'ur' ? "گھریلو خدمات, پیشہ ورانہ خدمات, سباكة, برقی, صفائی, دیکھ بھال, سعودی عرب" : "خدمات المنازل، خدمات احترافية، سباكة، كهرباء، تنظيف، صيانة، المملكة العربية السعودية"} />
+        <meta name="keywords" content={locale === 'en' ? "home services, professional services, plumbing, electrical, cleaning, maintenance, Egypt" : locale === 'ur' ? "گھریلو خدمات, پیشہ ورانہ خدمات, سباكة, برقی, صفائی, دیکھ بھال, مصر" : "خدمات المنازل، خدمات احترافية، سباكة، كهرباء، تنظيف، صيانة، مصر"} />
         <meta name="language" content={locale} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

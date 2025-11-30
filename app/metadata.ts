@@ -12,7 +12,7 @@ const defaultKeywords = [
   'مواد غذائية',
   'خدمات مهنية',
   'صيانة منزلية',
-  'خدمات في السعودية',
+  'خدمات في مصر',
   'تطبيق توصيل',
   'حجز فني',
   'طلب خدمة',
@@ -25,14 +25,14 @@ const defaultKeywords = [
   'grocery stores',
   'professional services',
   'home maintenance',
-  'Saudi Arabia services'
+  'مصر services'
 ]
 
-const defaultDescription = `منفذ - المنصة الرائدة في المملكة العربية السعودية للخدمات المتكاملة. نوفر خدمات التوصيل، الصيانة المنزلية، صيانة السيارات، والمتاجر. اطلب خدمتك الآن بكل سهولة وأمان.`
+const defaultDescription = `منفذ - المنصة الرائدة في مصر للخدمات المتكاملة. نوفر خدمات التوصيل، الصيانة المنزلية، صيانة السيارات، والمتاجر. اطلب خدمتك الآن بكل سهولة وأمان.`
 
 export const defaultMetadata: Metadata = {
   title: {
-    default: 'منفذ - منصة الخدمات المتكاملة في السعودية',
+    default: 'منفذ - منصة الخدمات المتكاملة في مصر',
     template: '%s | منفذ'
   },
   description: defaultDescription,
@@ -57,7 +57,7 @@ export const defaultMetadata: Metadata = {
     alternateLocale: ['en_US', 'ur_PK'],
     url: 'https://manfaz.com',
     siteName: 'منفذ',
-    title: 'منفذ - منصة الخدمات المتكاملة في السعودية',
+    title: 'منفذ - منصة الخدمات المتكاملة في مصر',
     description: defaultDescription,
     images: [
       {
@@ -70,7 +70,7 @@ export const defaultMetadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'منفذ - منصة الخدمات المتكاملة في السعودية',
+    title: 'منفذ - منصة الخدمات المتكاملة في مصر',
     description: defaultDescription,
     creator: '@manfaz',
     creatorId: '1467726470533754880',

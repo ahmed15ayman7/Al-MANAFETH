@@ -7,7 +7,7 @@ const nextConfig = {
   /* config options here */
   i18n: {
     defaultLocale: 'en',
-    locales: ['ar', 'en', "ur"],
+    locales: ['ar', 'en'],
     localeDetection: false
   },
   images: {
@@ -33,7 +33,7 @@ const nextConfig = {
         hostname: '*',
       },
     ],
-    domains: ['localhost', "https://almanafth.com/"],
+    domains: ['localhost', "manfaz.vercel.app"],
   },
   webpack: (config, { isServer }) => {
     // تجاهل تحذير punycode
