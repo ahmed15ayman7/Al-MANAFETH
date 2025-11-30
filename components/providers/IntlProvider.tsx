@@ -6,7 +6,6 @@ import useStore from '@/store/useLanguageStore';
 const messages = {
   en: require('@/messages/en.json'),
   ar: require('@/messages/ar.json'),
-  ur: require('@/messages/ur.json'),
 };
 interface LayoutProps {
   children: ReactNode;
