@@ -22,11 +22,10 @@ export default function CategoryCard({ category, index }: CategoryCardProps) {
     >
       <Link href={`/categories/${category.id}`}>
         <div className="relative h-64 w-full">
-          <Image
+          <img
             src={category.imageUrl||""}
             alt={category.name}
-            fill
-            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            className="object-cover group-hover:scale-105 transition-transform duration-300 w-full h-full"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-black/20" />
           <div className="absolute inset-0 flex flex-col justify-end p-6">
