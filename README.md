@@ -1,79 +1,530 @@
-## User\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| name | String |  |  |\n| email | String |  |  |\n| phone | String |  |  |\n| password | String |  |  |\n| imageUrl | String |  |  |\n| token | String? |  |  |\n| isVerified | Boolean |  |  |\n| role | UserRole |  |  |\n| verificationCode | Int? |  |  |\n| createdAt | DateTime? |  |  |\n| updatedAt | DateTime? |  |  |\n| Worker | Worker[] |  |  |\n| DeliveryDriver | DeliveryDriver[] |  |  |\n| Order | Order[] |  |  |\n| Wallet | Wallet[] |  |  |\n| locations | UserLocation[] |  |  |\n| Review | Review[] |  |  |\n| notifications | Notification[] |  |  |\n| Notification | Notification[] |  |  |\n\n
+# Database Schema (auto-generated)
 
+## User
 
-## Category\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| name | String |  |  |\n| subName | String? |  |  |\n| slug | String |  |  |\n| description | String? |  |  |\n| info | String? |  |  |\n| price | Float? |  |  |\n| imageUrl | String? |  |  |\n| type | ServiceType |  |  |\n| subType | ServiceSubType? |  |  |\n| status | String |  |  |\n| sortOrder | Int |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| services | Service[] |  |  |\n| Store | Store[] |  |  |\n| WorkerCategory | WorkerCategory[] |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| name | String |  |  |
+| email | String |  |  |
+| phone | String |  |  |
+| password | String |  |  |
+| imageUrl | String |  |  |
+| token | String? |  |  |
+| isVerified | Boolean |  |  |
+| role | UserRole |  |  |
+| verificationCode | Int? |  |  |
+| createdAt | DateTime? |  |  |
+| updatedAt | DateTime? |  |  |
+| Worker | Worker[] |  |  |
+| DeliveryDriver | DeliveryDriver[] |  |  |
+| Order | Order[] |  |  |
+| Wallet | Wallet[] |  |  |
+| locations | UserLocation[] |  |  |
+| Review | Review[] |  |  |
+| notifications | Notification[] |  |  |
+| Notification | Notification[] |  |  |
 
+## Category
 
-## WorkerCategory\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| worker | Worker |  |  |\n| category | Category |  |  |\n| workerId | String |  | FK |\n| categoryId | String |  | FK |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| name | String |  |  |
+| subName | String? |  |  |
+| slug | String |  |  |
+| description | String? |  |  |
+| info | String? |  |  |
+| price | Float? |  |  |
+| imageUrl | String? |  |  |
+| type | ServiceType |  |  |
+| subType | ServiceSubType? |  |  |
+| status | String |  |  |
+| sortOrder | Int |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| services | Service[] |  |  |
+| Store | Store[] |  |  |
+| WorkerCategory | WorkerCategory[] |  |  |
 
+## WorkerCategory
 
-## Service\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| name | String |  |  |\n| slug | String |  |  |\n| description | String? |  |  |\n| categoryId | String |  | FK |\n| category | Category? |  |  |\n| type | ServiceType |  |  |\n| subType | ServiceSubType? |  |  |\n| price | Float? |  |  |\n| duration | Int? |  |  |\n| availability | Boolean |  |  |\n| imageUrl | String? |  |  |\n| iconUrl | String? |  |  |\n| rating | Float |  |  |\n| ratingCount | Int |  |  |\n| warranty | Int? |  |  |\n| installmentAvailable | Boolean |  |  |\n| installmentMonths | Int? |  |  |\n| monthlyInstallment | Float? |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| parameters | ServiceParameter[] |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| worker | Worker |  |  |
+| category | Category |  |  |
+| workerId | String |  | FK |
+| categoryId | String |  | FK |
 
+## Service
 
-## ServiceParameter\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| name | String |  |  |\n| description | String? |  |  |\n| imageUrl | String? |  |  |\n| iconUrl | String? |  |  |\n| price | Float |  |  |\n| warranty | Int? |  |  |\n| installmentAvailable | Boolean |  |  |\n| installmentMonths | Int? |  |  |\n| monthlyInstallment | Float? |  |  |\n| serviceId | String |  | FK |\n| service | Service |  |  |\n| status | String |  |  |\n| sortOrder | Int |  |  |\n| rating | Float? |  |  |\n| ratingCount | Int? |  |  |\n| duration | Int? |  |  |\n| availability | Boolean? |  |  |\n| faqs | Json? |  |  |\n| whatIncluded | Json? |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| Order | Order[] |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| name | String |  |  |
+| slug | String |  |  |
+| description | String? |  |  |
+| categoryId | String |  | FK |
+| category | Category? |  |  |
+| type | ServiceType |  |  |
+| subType | ServiceSubType? |  |  |
+| price | Float? |  |  |
+| duration | Int? |  |  |
+| availability | Boolean |  |  |
+| imageUrl | String? |  |  |
+| iconUrl | String? |  |  |
+| rating | Float |  |  |
+| ratingCount | Int |  |  |
+| warranty | Int? |  |  |
+| installmentAvailable | Boolean |  |  |
+| installmentMonths | Int? |  |  |
+| monthlyInstallment | Float? |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| parameters | ServiceParameter[] |  |  |
 
+## ServiceParameter
 
-## Worker\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| userId | String |  | FK |\n| user | User? |  |  |\n| title | String |  |  |\n| description | String |  |  |\n| isAvailable | Boolean |  |  |\n| isFavorite | Boolean |  |  |\n| hourlyRate | Float |  |  |\n| jobSuccessRate | Float |  |  |\n| totalEarned | Float |  |  |\n| skills | String[] |  |  |\n| rating | Float |  |  |\n| reviewsCount | Int |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| isVerified | Boolean? |  |  |\n| totalJobsDone | Int |  |  |\n| about | String? |  |  |\n| experiences | WorkExperience[] |  |  |\n| reviews | Review[] |  |  |\n| Order | Order[] |  |  |\n| schedule | Schedule[] |  |  |\n| earnings | Earning[] |  |  |\n| WorkerCategory | WorkerCategory[] |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| name | String |  |  |
+| description | String? |  |  |
+| imageUrl | String? |  |  |
+| iconUrl | String? |  |  |
+| price | Float |  |  |
+| warranty | Int? |  |  |
+| installmentAvailable | Boolean |  |  |
+| installmentMonths | Int? |  |  |
+| monthlyInstallment | Float? |  |  |
+| serviceId | String |  | FK |
+| service | Service |  |  |
+| status | String |  |  |
+| sortOrder | Int |  |  |
+| rating | Float? |  |  |
+| ratingCount | Int? |  |  |
+| duration | Int? |  |  |
+| availability | Boolean? |  |  |
+| faqs | Json? |  |  |
+| whatIncluded | Json? |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| Order | Order[] |  |  |
 
+## Worker
 
-## Earning\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| amount | Float |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| worker | Worker |  |  |\n| workerId | String |  | FK |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| userId | String |  | FK |
+| user | User? |  |  |
+| title | String |  |  |
+| description | String |  |  |
+| isAvailable | Boolean |  |  |
+| isFavorite | Boolean |  |  |
+| hourlyRate | Float |  |  |
+| jobSuccessRate | Float |  |  |
+| totalEarned | Float |  |  |
+| skills | String[] |  |  |
+| rating | Float |  |  |
+| reviewsCount | Int |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| isVerified | Boolean? |  |  |
+| totalJobsDone | Int |  |  |
+| about | String? |  |  |
+| experiences | WorkExperience[] |  |  |
+| reviews | Review[] |  |  |
+| Order | Order[] |  |  |
+| schedule | Schedule[] |  |  |
+| earnings | Earning[] |  |  |
+| WorkerCategory | WorkerCategory[] |  |  |
 
+## Earning
 
-## Schedule\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| workerId | String |  | FK |\n| scheduledTime | DateTime |  |  |\n| date | DateTime |  |  |\n| day | String |  |  |\n| shiftType | ShiftEnum |  |  |\n| worker | Worker |  |  |\n| maxOrders | Int |  |  |\n| ordersCount | Int |  |  |\n| isFull | Boolean |  |  |\n| location | String? |  |  |\n| workerType | WorkerTypeEnum |  |  |\n| status | StatusEnum |  |  |\n| priority | PriorityEnum |  |  |\n| notes | String? |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| ScheduleOrder | ScheduleOrder[] |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| amount | Float |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| worker | Worker |  |  |
+| workerId | String |  | FK |
 
+## Schedule
 
-## WorkExperience\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| workerId | String |  | FK |\n| worker | Worker |  |  |\n| title | String |  |  |\n| company | String |  |  |\n| duration | String |  |  |\n| description | String |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| workerId | String |  | FK |
+| scheduledTime | DateTime |  |  |
+| date | DateTime |  |  |
+| day | String |  |  |
+| shiftType | ShiftEnum |  |  |
+| worker | Worker |  |  |
+| maxOrders | Int |  |  |
+| ordersCount | Int |  |  |
+| isFull | Boolean |  |  |
+| location | String? |  |  |
+| workerType | WorkerTypeEnum |  |  |
+| status | StatusEnum |  |  |
+| priority | PriorityEnum |  |  |
+| notes | String? |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| ScheduleOrder | ScheduleOrder[] |  |  |
 
+## WorkExperience
 
-## Review\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| workerId | String |  | FK |\n| worker | Worker |  |  |\n| userId | String |  | FK |\n| user | User |  |  |\n| orderId | String |  | FK |\n| order | Order |  |  |\n| rating | Float |  |  |\n| comment | String |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| workerId | String |  | FK |
+| worker | Worker |  |  |
+| title | String |  |  |
+| company | String |  |  |
+| duration | String |  |  |
+| description | String |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
 
+## Review
 
-## DeliveryDriver\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| userId | String |  | FK |\n| user | User? |  |  |\n| vehicleType | String? |  |  |\n| license | String? |  |  |\n| availability | Boolean |  |  |\n| rating | Float |  |  |\n| reviewsCount | Int |  |  |\n| completedOrders | Int |  |  |\n| earnings | Float |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| Order | Order[] |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| workerId | String |  | FK |
+| worker | Worker |  |  |
+| userId | String |  | FK |
+| user | User |  |  |
+| orderId | String |  | FK |
+| order | Order |  |  |
+| rating | Float |  |  |
+| comment | String |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
 
+## DeliveryDriver
 
-## OrdersStore\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| orderId | String |  | FK |\n| order | Order |  |  |\n| storeId | String |  | FK |\n| store | Store |  |  |\n| products | ProductsOrder[] |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| userId | String |  | FK |
+| user | User? |  |  |
+| vehicleType | String? |  |  |
+| license | String? |  |  |
+| availability | Boolean |  |  |
+| rating | Float |  |  |
+| reviewsCount | Int |  |  |
+| completedOrders | Int |  |  |
+| earnings | Float |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| Order | Order[] |  |  |
 
+## OrdersStore
 
-## Order\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| userId | String? |  | FK |\n| user | User? |  |  |\n| serviceId | String? |  | FK |\n| service | ServiceParameter? |  |  |\n| providerId | String? |  | FK |\n| provider | Worker? |  |  |\n| deliveryDriverId | String? |  | FK |\n| deliveryDriver | DeliveryDriver? |  |  |\n| latitude | Float? |  |  |\n| longitude | Float? |  |  |\n| address | String? |  |  |\n| notes | String? |  |  |\n| price | Float? |  |  |\n| duration | Int? |  |  |\n| status | OrderStatus |  |  |\n| totalAmount | Float |  |  |\n| paymentStatus | PaymentStatus |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| store | OrdersStore[] |  |  |\n| paymentMethod | PaymentMethod? |  |  |\n| Review | Review[] |  |  |\n| ScheduleOrder | ScheduleOrder[] |  |  |\n| Notification | Notification[] |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| orderId | String |  | FK |
+| order | Order |  |  |
+| storeId | String |  | FK |
+| store | Store |  |  |
+| products | ProductsOrder[] |  |  |
 
+## Order
 
-## ProductsOrder\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| orderId | String |  | FK |\n| orders | OrdersStore |  |  |\n| productId | String |  | FK |\n| product | Product |  |  |\n| quantity | Int |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| userId | String? |  | FK |
+| user | User? |  |  |
+| serviceId | String? |  | FK |
+| service | ServiceParameter? |  |  |
+| providerId | String? |  | FK |
+| provider | Worker? |  |  |
+| deliveryDriverId | String? |  | FK |
+| deliveryDriver | DeliveryDriver? |  |  |
+| latitude | Float? |  |  |
+| longitude | Float? |  |  |
+| address | String? |  |  |
+| notes | String? |  |  |
+| price | Float? |  |  |
+| duration | Int? |  |  |
+| status | OrderStatus |  |  |
+| totalAmount | Float |  |  |
+| paymentStatus | PaymentStatus |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| store | OrdersStore[] |  |  |
+| paymentMethod | PaymentMethod? |  |  |
+| Review | Review[] |  |  |
+| ScheduleOrder | ScheduleOrder[] |  |  |
+| Notification | Notification[] |  |  |
 
+## ProductsOrder
 
-## ScheduleOrder\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| scheduleId | String |  | FK |\n| orderId | String |  | FK |\n| schedule | Schedule |  |  |\n| order | Order |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| orderId | String |  | FK |
+| orders | OrdersStore |  |  |
+| productId | String |  | FK |
+| product | Product |  |  |
+| quantity | Int |  |  |
 
+## ScheduleOrder
 
-## Wallet\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| userId | String |  | FK |\n| user | User? |  |  |\n| balance | Float |  |  |\n| transactions | Transaction[] |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| scheduleId | String |  | FK |
+| orderId | String |  | FK |
+| schedule | Schedule |  |  |
+| order | Order |  |  |
 
+## Wallet
 
-## Transaction\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| walletId | String |  | FK |\n| wallet | Wallet? |  |  |\n| type | String |  |  |\n| amount | Float |  |  |\n| paymentId | String? |  |  |\n| status | String |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| userId | String |  | FK |
+| user | User? |  |  |
+| balance | Float |  |  |
+| transactions | Transaction[] |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
 
+## Transaction
 
-## Store\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| name | String |  |  |\n| description | String? |  |  |\n| type | String |  |  |\n| logo | String? |  |  |\n| coverImage | String? |  |  |\n| images | String[] |  |  |\n| address | String |  |  |\n| locations | StoreLocation[] |  |  |\n| phone | String? |  |  |\n| email | String? |  |  |\n| workingHours | StoreWorkingHours[] |  |  |\n| categoryId | String? |  | FK |\n| category | Category? |  |  |\n| rating | Float |  |  |\n| reviewsCount | Int |  |  |\n| isActive | Boolean |  |  |\n| status | String |  |  |\n| minOrderAmount | Float? |  |  |\n| deliveryFee | Float? |  |  |\n| priceDriver | Float? |  |  |\n| categories | StoreCategory[] |  |  |\n| products | Product[] |  |  |\n| offers | StoreOffer[] |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| OrdersStore | OrdersStore[] |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| walletId | String |  | FK |
+| wallet | Wallet? |  |  |
+| type | String |  |  |
+| amount | Float |  |  |
+| paymentId | String? |  |  |
+| status | String |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
 
+## Store
 
-## StoreLocation\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| storeId | String |  | FK |\n| store | Store |  |  |\n| name | String |  |  |\n| address | String |  |  |\n| latitude | Float |  |  |\n| longitude | Float |  |  |\n| phone | String? |  |  |\n| isActive | Boolean |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| name | String |  |  |
+| description | String? |  |  |
+| type | String |  |  |
+| logo | String? |  |  |
+| coverImage | String? |  |  |
+| images | String[] |  |  |
+| address | String |  |  |
+| locations | StoreLocation[] |  |  |
+| phone | String? |  |  |
+| email | String? |  |  |
+| workingHours | StoreWorkingHours[] |  |  |
+| categoryId | String? |  | FK |
+| category | Category? |  |  |
+| rating | Float |  |  |
+| reviewsCount | Int |  |  |
+| isActive | Boolean |  |  |
+| status | String |  |  |
+| minOrderAmount | Float? |  |  |
+| deliveryFee | Float? |  |  |
+| priceDriver | Float? |  |  |
+| categories | StoreCategory[] |  |  |
+| products | Product[] |  |  |
+| offers | StoreOffer[] |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| OrdersStore | OrdersStore[] |  |  |
 
+## StoreLocation
 
-## StoreCategory\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| storeId | String |  | FK |\n| store | Store |  |  |\n| name | String |  |  |\n| description | String? |  |  |\n| image | String? |  |  |\n| isActive | Boolean |  |  |\n| sortOrder | Int |  |  |\n| products | Product[] |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| storeId | String |  | FK |
+| store | Store |  |  |
+| name | String |  |  |
+| address | String |  |  |
+| latitude | Float |  |  |
+| longitude | Float |  |  |
+| phone | String? |  |  |
+| isActive | Boolean |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
 
+## StoreCategory
 
-## Product\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| name | String |  |  |\n| description | String? |  |  |\n| price | Float |  |  |\n| salePrice | Float? |  |  |\n| images | String[] |  |  |\n| storeId | String |  | FK |\n| store | Store |  |  |\n| categoryId | String |  | FK |\n| category | StoreCategory |  |  |\n| isAvailable | Boolean |  |  |\n| rating | Float |  |  |\n| ingredients | String[] |  |  |\n| extras | Json? |  |  |\n| stock | Int |  |  |\n| discountPrice | Float? |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| ProductsOrder | ProductsOrder[] |  |  |\n| StoreOfferProduct | StoreOfferProduct[] |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| storeId | String |  | FK |
+| store | Store |  |  |
+| name | String |  |  |
+| description | String? |  |  |
+| image | String? |  |  |
+| isActive | Boolean |  |  |
+| sortOrder | Int |  |  |
+| products | Product[] |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
 
+## Product
 
-## StoreOfferProduct\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| storeOfferId | String |  | FK |\n| storeOffer | StoreOffer |  |  |\n| productId | String |  | FK |\n| product | Product |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| name | String |  |  |
+| description | String? |  |  |
+| price | Float |  |  |
+| salePrice | Float? |  |  |
+| images | String[] |  |  |
+| storeId | String |  | FK |
+| store | Store |  |  |
+| categoryId | String |  | FK |
+| category | StoreCategory |  |  |
+| isAvailable | Boolean |  |  |
+| rating | Float |  |  |
+| ingredients | String[] |  |  |
+| extras | Json? |  |  |
+| stock | Int |  |  |
+| discountPrice | Float? |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| ProductsOrder | ProductsOrder[] |  |  |
+| StoreOfferProduct | StoreOfferProduct[] |  |  |
 
+## StoreOfferProduct
 
-## StoreOffer\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| storeId | String |  | FK |\n| store | Store |  |  |\n| name | String |  |  |\n| description | String? |  |  |\n| type | String |  |  |\n| image | String? |  |  |\n| startDate | DateTime? |  |  |\n| endDate | DateTime? |  |  |\n| discount | Float? |  |  |\n| isActive | Boolean |  |  |\n| products | StoreOfferProduct[] |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| storeOfferId | String |  | FK |
+| storeOffer | StoreOffer |  |  |
+| productId | String |  | FK |
+| product | Product |  |  |
 
+## StoreOffer
 
-## UserLocation\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| userId | String |  | FK |\n| user | User |  |  |\n| name | String? |  |  |\n| address | String |  |  |\n| apartment | String? |  |  |\n| floor | String? |  |  |\n| building | String? |  |  |\n| street | String? |  |  |\n| area | String? |  |  |\n| city | String? |  |  |\n| latitude | Float |  |  |\n| longitude | Float |  |  |\n| isDefault | Boolean |  |  |\n| type | String |  |  |\n| notes | String? |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| storeId | String |  | FK |
+| store | Store |  |  |
+| name | String |  |  |
+| description | String? |  |  |
+| type | String |  |  |
+| image | String? |  |  |
+| startDate | DateTime? |  |  |
+| endDate | DateTime? |  |  |
+| discount | Float? |  |  |
+| isActive | Boolean |  |  |
+| products | StoreOfferProduct[] |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
 
+## UserLocation
 
-## StoreWorkingHours\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| storeId | String |  | FK |\n| store | Store |  |  |\n| dayOfWeek | Int |  |  |\n| isOpen | Boolean |  |  |\n| openTime | String |  |  |\n| closeTime | String |  |  |\n| breakStart | String? |  |  |\n| breakEnd | String? |  |  |\n| isSpecialDay | Boolean |  |  |\n| specialDate | DateTime? |  |  |\n| note | String? |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| userId | String |  | FK |
+| user | User |  |  |
+| name | String? |  |  |
+| address | String |  |  |
+| apartment | String? |  |  |
+| floor | String? |  |  |
+| building | String? |  |  |
+| street | String? |  |  |
+| area | String? |  |  |
+| city | String? |  |  |
+| latitude | Float |  |  |
+| longitude | Float |  |  |
+| isDefault | Boolean |  |  |
+| type | String |  |  |
+| notes | String? |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
 
+## StoreWorkingHours
 
-## Notification\n\n| Field | Type | PK | Notes |\n|---|---:|:---:|---|\n| id | String | PK |  |\n| title | String |  |  |\n| message | String |  |  |\n| type | NotificationType |  |  |\n| relatedId | String |  | FK |\n| senderId | String |  | FK |\n| orderId | String? |  | FK |\n| isRead | Boolean |  |  |\n| createdAt | DateTime |  |  |\n| updatedAt | DateTime |  |  |\n| user | User? |  |  |\n| sender | User? |  |  |\n| order | Order? |  |  |\n\n\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| storeId | String |  | FK |
+| store | Store |  |  |
+| dayOfWeek | Int |  |  |
+| isOpen | Boolean |  |  |
+| openTime | String |  |  |
+| closeTime | String |  |  |
+| breakStart | String? |  |  |
+| breakEnd | String? |  |  |
+| isSpecialDay | Boolean |  |  |
+| specialDate | DateTime? |  |  |
+| note | String? |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
 
+## Notification
 
-## Relationships\n\n- WorkerCategory.workerId -> Worker.id\n- WorkerCategory.categoryId -> Category.id\n- Service.categoryId -> Category.id\n- ServiceParameter.serviceId -> Service.id\n- Worker.userId -> User.id\n- Earning.workerId -> Worker.id\n- Schedule.workerId -> Worker.id\n- WorkExperience.workerId -> Worker.id\n- Review.workerId -> Worker.id\n- Review.userId -> User.id\n- Review.orderId -> Order.id\n- DeliveryDriver.userId -> User.id\n- OrdersStore.orderId -> Order.id\n- OrdersStore.storeId -> Store.id\n- Order.userId -> User.id\n- Order.serviceId -> ServiceParameter.id\n- Order.providerId -> Worker.id\n- Order.deliveryDriverId -> DeliveryDriver.id\n- ProductsOrder.orderId -> OrdersStore.id\n- ProductsOrder.productId -> Product.id\n- ScheduleOrder.scheduleId -> Schedule.id\n- ScheduleOrder.orderId -> Order.id\n- Wallet.userId -> User.id\n- Transaction.walletId -> Wallet.id\n- Store.categoryId -> Category.id\n- StoreLocation.storeId -> Store.id\n- StoreCategory.storeId -> Store.id\n- Product.storeId -> Store.id\n- Product.categoryId -> StoreCategory.id\n- StoreOfferProduct.storeOfferId -> StoreOffer.id\n- StoreOfferProduct.productId -> Product.id\n- StoreOffer.storeId -> Store.id\n- UserLocation.userId -> User.id\n- StoreWorkingHours.storeId -> Store.id\n- Notification.relatedId -> User.id\n- Notification.senderId -> User.id\n- Notification.orderId -> Order.id\n
+| Field | Type | PK | Notes |
+|---|---:|:---:|---|
+| id | String | PK |  |
+| title | String |  |  |
+| message | String |  |  |
+| type | NotificationType |  |  |
+| relatedId | String |  | FK |
+| senderId | String |  | FK |
+| orderId | String? |  | FK |
+| isRead | Boolean |  |  |
+| createdAt | DateTime |  |  |
+| updatedAt | DateTime |  |  |
+| user | User? |  |  |
+| sender | User? |  |  |
+| order | Order? |  |  |
+
+## Relationships
+
+- WorkerCategory.workerId → Worker.id
+- WorkerCategory.categoryId → Category.id
+- Service.categoryId → Category.id
+- ServiceParameter.serviceId → Service.id
+- Worker.userId → User.id
+- Earning.workerId → Worker.id
+- Schedule.workerId → Worker.id
+- WorkExperience.workerId → Worker.id
+- Review.workerId → Worker.id
+- Review.userId → User.id
+- Review.orderId → Order.id
+- DeliveryDriver.userId → User.id
+- OrdersStore.orderId → Order.id
+- OrdersStore.storeId → Store.id
+- Order.userId → User.id
+- Order.serviceId → ServiceParameter.id
+- Order.providerId → Worker.id
+- Order.deliveryDriverId → DeliveryDriver.id
+- ProductsOrder.orderId → OrdersStore.id
+- ProductsOrder.productId → Product.id
+- ScheduleOrder.scheduleId → Schedule.id
+- ScheduleOrder.orderId → Order.id
+- Wallet.userId → User.id
+- Transaction.walletId → Wallet.id
+- Store.categoryId → Category.id
+- StoreLocation.storeId → Store.id
+- StoreCategory.storeId → Store.id
+- Product.storeId → Store.id
+- Product.categoryId → StoreCategory.id
+- StoreOfferProduct.storeOfferId → StoreOffer.id
+- StoreOfferProduct.productId → Product.id
+- StoreOffer.storeId → Store.id
+- UserLocation.userId → User.id
+- StoreWorkingHours.storeId → Store.id
+- Notification.relatedId → User.id
+- Notification.senderId → User.id
+- Notification.orderId → Order.id
